@@ -14,7 +14,7 @@ body {
   background: url('img/fazenda.jpg') center/cover no-repeat;
   height: 100vh;
   display: flex;
-  align-items: center;
+  align-items:baseline;
   justify-content: center;
   position: relative;
 }
