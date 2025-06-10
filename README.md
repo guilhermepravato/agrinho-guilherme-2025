@@ -5,7 +5,7 @@ Este é um projeto criado para o concurso do GitHub com o tema **"Tecnologia que
 
 ## 💻 Tecnologias usadas
 
-- HTML5
+- HTML
 - CSS3
 - JavaScript
 - Imagens e conteúdo visual
@@ -15,9 +15,5 @@ Este é um projeto criado para o concurso do GitHub com o tema **"Tecnologia que
 - Drones para pulverização e monitoramento
 - Sensores IoT no solo
 - Aplicativos de gestão agrícola
-
+- Inovação Mecatrônica
 ## 🚀 Executar o projeto
-
-1. Clone o repositório:
-```bash
-git clone https://github.com/seuusuario/seurepositorio.git
