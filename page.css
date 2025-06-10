@@ -1,0 +1,92 @@
+/* detail-page.css */
+
+.detail-header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('img/hero-background.jpg'); /* You might want a different background image for detail pages */
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+  min-height: 300px; /* Adjust as needed */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.detail-header h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+.detail-header p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.back-button {
+  display: inline-block;
+  background-color: #4CAF50; /* Green */
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #45a049;
+}
+
+.detail-content {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+}
+
+.detail-content .container {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.detail-content h2 {
+  color: #333;
+  font-size: 2.2em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.detail-content p {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+.detail-content .content-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto 30px auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.detail-content ul {
+  list-style: disc;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.detail-content ul li {
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
+
+/* Ensure the main style.css for general elements like footer remains linked */

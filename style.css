@@ -46,7 +46,20 @@ body {
   border-radius: 5px;
 }
 
-.features {
+.features {/* Add to your existing style.css */
+.card-link {
+  text-decoration: none; /* Removes underline from the link */
+  color: inherit; /* Inherits text color from parent */
+}
+
+.card-link .card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.card-link .card:hover {
+  transform: translateY(-5px); /* Lifts the card slightly on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Adds a stronger shadow on hover */
+}
   padding: 60px 20px;
   text-align: center;
 }
@@ -93,3 +106,17 @@ footer a {
   text-decoration: underline;
 }
 
+/* Add to your existing style.css */
+.card-link {
+  text-decoration: none; /* Removes underline from the link */
+  color: inherit; /* Inherits text color from parent */
+}
+
+.card-link .card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.card-link .card:hover {
+  transform: translateY(-5px); /* Lifts the card slightly on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Adds a stronger shadow on hover */
+}
