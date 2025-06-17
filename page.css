@@ -24,6 +24,11 @@
   margin-bottom: 20px;
 }
 
+.drone-image{
+  width: 50%;
+  height: 50%;
+  text-align: center;
+}
 .back-button {
   display: inline-block;
   background-color: #4CAF50; /* Green */
